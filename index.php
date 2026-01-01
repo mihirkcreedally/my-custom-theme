@@ -1,2 +1,2 @@
 <?php
-echo "<h1>My Custom Theme</h1>";
+echo "<h1>Hello from Git + WordPress Theme</h1>";
