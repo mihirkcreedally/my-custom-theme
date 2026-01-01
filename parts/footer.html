@@ -1,5 +1,21 @@
 <!-- wp:group {"layout":{"type":"constrained"}} -->
-  <!-- wp:paragraph -->
-    <p>© My Custom Theme</p>
-  <!-- /wp:paragraph -->
+  <!-- wp:columns -->
+    <!-- wp:column -->
+      <!-- wp:site-title /-->
+      <!-- wp:paragraph -->
+        <p>© <?php echo date('Y'); ?> My Custom Theme</p>
+      <!-- /wp:paragraph -->
+    <!-- /wp:column -->
+
+    <!-- wp:column -->
+      <!-- wp:navigation /-->
+    <!-- /wp:column -->
+
+    <!-- wp:column -->
+      <!-- wp:social-links -->
+        <!-- wp:social-link {"url":"#","service":"twitter"} /-->
+        <!-- wp:social-link {"url":"#","service":"facebook"} /-->
+      <!-- /wp:social-links -->
+    <!-- /wp:column -->
+  <!-- /wp:columns -->
 <!-- /wp:group -->

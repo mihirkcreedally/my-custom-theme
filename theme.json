@@ -5,17 +5,26 @@
       "contentSize": "720px",
       "wideSize": "1200px"
     },
+    "color": {
+      "palette": [
+        { "slug": "black", "color": "#111111", "name": "Black" },
+        { "slug": "white", "color": "#ffffff", "name": "White" },
+        { "slug": "primary", "color": "#1e73be", "name": "Primary" }
+      ]
+    },
     "typography": {
       "fontSizes": [
         { "slug": "small", "size": "14px", "name": "Small" },
         { "slug": "medium", "size": "18px", "name": "Medium" },
-        { "slug": "large", "size": "32px", "name": "Large" },
-        { "slug": "x-large", "size": "42px", "name": "Extra Large" }
-      ],
-      "lineHeight": true
+        { "slug": "large", "size": "32px", "name": "Large" }
+      ]
     }
   },
   "styles": {
+    "color": {
+      "background": "#ffffff",
+      "text": "#111111"
+    },
     "typography": {
       "fontSize": "18px",
       "lineHeight": "1.7"
