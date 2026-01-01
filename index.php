@@ -1,4 +1,4 @@
 <?php
-echo "<h1>My Custom Theme Working</h1>";
+echo "<h1>Header from feature branch</h1>";
 
 ?>  
