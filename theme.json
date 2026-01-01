@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "settings": {
+    "layout": {
+      "contentSize": "720px",
+      "wideSize": "1200px"
+    },
+    "typography": {
+      "fontSizes": [
+        { "slug": "small", "size": "14px", "name": "Small" },
+        { "slug": "medium", "size": "18px", "name": "Medium" },
+        { "slug": "large", "size": "32px", "name": "Large" },
+        { "slug": "x-large", "size": "42px", "name": "Extra Large" }
+      ],
+      "lineHeight": true
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontSize": "18px",
+      "lineHeight": "1.7"
+    }
+  }
+}
